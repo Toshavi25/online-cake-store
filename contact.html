@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+</head>
+
+<body>
+    <section>
+        <h1>Contact Us</h1>
+        <p>
+            We would love to hear from you. Share your thoughts and queries with us!
+        </p>
+    </section>
+    <section>
+        <form action="submitted.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required autofocus /><br /><br />
+            <label for="contactno">Contact No.:</label>
+            <input type="tel" id="contactno" name="contactno" required /><br /><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" /><br /><br />
+            <label for="subject">Subject:</label>
+            <select name="subject" id="subject">
+                <option value="Feedback">Feedback</option>
+                <option value="Custom Order">Custom Order</option>
+                <option value="Feedback">Others</option>
+            </select><br /><br />
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" rows="5" cols="50" required></textarea><br /><br />
+            <label>Preferred Contact Method:</label>
+            <input type="radio" id="uemail"name="user_contact" value="Email">
+            <label for="uemail">Email</label>
+            <input type="radio" id="uphone"name="user_contact" value="Phone">
+            <label for="uphone">Phone</label><br><br>
+           
+            <label for="upload">Attach File</label>
+            <input type="file" id="myfile" name="filename" accept=".jpeg, .jpg, .png, .pdf" required>
+            <p>Note : We accept file sizes up to 1mb and in a jpeg, png or pdf format.</p>
+            <label for="volume">Your Experience:</label>
+<input type="range" id="volume" name="volume" min="0" max="100" step="10" value="50"><br><br>
+
+            <button type="submit">submit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+    <hr>
+    <section id="contact">
+        <h2>Cakekart</h2>
+        <h3>Registered Address:</h3>
+        <address>
+            2/33 A, Deonar Village Road, Opp. Metal Box Company, Govandi East,
+            Mumbai-400088,
+            Maharashtra, India
+        </address>  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15132.529608816518!2d73.8765322!3d18.522918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c05a97cd3bd7%3A0x8d4773ca6c87643!2sCake%20Cart!5e0!3m2!1sen!2sin!4v1733428336080!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <h3>Contact Details</h3>    
+        <p>Phone: +91 8182-881881</p>
+        <p>Email: contact@theobroma.in</p>
+    </section>
+</body>
+<!-- footer -->
+<footer>
+    <p>OUR STORES -
+        <br>
+        Mumbai | Navi Mumbai | Thane | Delhi | Noida | Ghaziabad | Gurgaon | Faridabad | Bengaluru | Hyderabad | Pune | Chandigarh-Mohali | Chennai | Nashik | Surat | Mysore
+         | Nagpur | Jaipur | Agra | Lucknow | Vadodara |
+         Dehradun | Meerut | Ahmedabad | Indore | Ludhiana | Jalandhar </p>
+         <p>&copy; 2024 Cake Bliss. All rights reserved.</p>
+    <p>Follow us on:
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+    </p>
+</footer>
+
+</html>
